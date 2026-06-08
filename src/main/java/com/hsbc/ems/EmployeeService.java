@@ -8,12 +8,5 @@ private static Logger logger = LoggerFactory.getLogger(EmployeeService.class);
     public  String create(){
         return  "Hi";
     }
-    public  String create1(){
-       logger.info("Hello");
-       logger.info("Hello");
-        return  "Hi";
-    }
-    public  String create2(){
-        return  "Hi";
-    }
+    
 }
