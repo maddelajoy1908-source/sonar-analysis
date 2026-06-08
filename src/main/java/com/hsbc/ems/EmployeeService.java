@@ -1,13 +1,16 @@
 package com.hsbc.ems;
 
-public class EmployeeService {
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+public class EmployeeService {
+private static Logger logger = LoggerFactory.getLogger(EmployeeService.class);
     public  String create(){
         return  "Hi";
     }
     public  String create1(){
-        System.out.println("Hello");
-        System.out.println("Hello");
+       logger.info("Hello");
+       logger.info("Hello");
         return  "Hi";
     }
     public  String create2(){
